@@ -1,0 +1,17 @@
+---
+title: "Análisis Mitología"
+author: "Sergi Fornés"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(igraph)
+```
+
+```{r}
+data <- as.matrix(read.csv("GitHubs shared/tfm-mitico/scrapeo/ady_matrix.csv", encoding = "UTF-8"))
+
+gf <- graph_from_adjacency_matrix(data)
+```
+
