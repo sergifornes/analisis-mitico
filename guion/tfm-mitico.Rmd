@@ -1,0 +1,137 @@
+---
+title: Herramienta para el Análisis de Personajes Mitológicos
+
+# Use letters for affiliations
+author:
+  - name: Sergi Fornés
+    
+# Optional: line of arbitrary text with additional information.
+# Could be used, for example, to mention the bibliographic info in a post-print.
+# If not specified, defaults to "This version was compiled on \today"
+#date_subtitle: Published in *Journal of Statistical Software*, 2018
+
+# For footer text  TODO(fold into template, allow free form two-authors)
+lead_author_surname: Author
+
+# Place eg a DOI URL or CRAN Package URL here
+doi_footer: "https://cran.r-project.org/package=YourPackage"
+
+# Abstract
+abstract: |
+  Your abstract will be typeset here, and used by default a visually distinctive font.
+  An abstract should explain to the general reader the major contributions of the article. 
+
+# Optional: Acknowledgements
+acknowledgements: |
+  This template package builds upon, and extends, the work of the excellent
+  [rticles](https://cran.r-project.org/package=rticles) package, and both packages rely on the
+  [PNAS LaTeX](http://www.pnas.org/site/authors/latex.xhtml) macros. Both these sources are
+  gratefully acknowledged as this work would not have been possible without them.  Our extensions
+  are under the same respective licensing term
+  ([GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html) and
+  [LPPL (>= 1.3)](https://www.latex-project.org/lppl/)).
+
+# Optional: One or more keywords
+keywords:
+  - one
+  - two
+  - optional
+  - keywords
+  - here
+
+# Paper size for the document, values of letter and a4
+papersize: letter
+
+# Font size of the document, values of 9pt (default), 10pt, 11pt and 12pt
+fontsize: 9pt
+
+# Optional: Force one-column layout, default is two-column
+#one_column: true
+
+# Optional: Enables lineno mode, but only if one_column mode is also true
+#lineno: true
+
+# Optional: Enable one-sided layout, default is two-sided
+#one_sided: true
+
+# Optional: Enable section numbering, default is unnumbered
+#numbersections: true
+
+# Optional: Specify the depth of section number, default is 5
+#secnumdepth: 5
+
+# Optional: Skip inserting final break between acknowledgements, default is false
+skip_final_break: true
+
+# Optional: Bibliography 
+bibliography: pinp
+
+# Optional: Enable a 'Draft' watermark on the document
+#watermark: true
+
+# Customize footer, eg by referencing the vignette
+footer_contents: "YourPackage Vignette"
+
+# Produce a pinp document
+output: pinp::pinp
+
+# Required: Vignette metadata for inclusion in a package.
+vignette: >
+  %\VignetteIndexEntry{YourPackage-vignetteentry}
+  %\VignetteKeywords{YourPackage, r, anotherkeyword}
+  %\VignettePackage{YourPackage}
+  %\VignetteEngine{knitr::rmarkdown}
+---
+
+```{r, include=FALSE, eval=FALSE}
+library(rmarkdown)
+render("tfm-mitico.Rmd")
+```
+
+
+## Guión
+
+Entender la mitología es entender al ser humano. Diferentes culturas han creado mitos para responder cuestiones complejas de manera sencilla. En estos mitos aparecen personajes sobrenaturales y las relaciones que mantienen con los seres humanos.
+
+
+En los mitos aparecen todo tipo de personajes, desde diosas del amor hasta monstruos devoradores de humanos. Dada esta diversidad aparecen preguntas interesantes, ¿diferentes culturas tienen personajes similares? ¿existen relaciones entre las características de los personajes? ¿y entre los mismos personajes?
+
+Los objetivos de este trabajo son:
+
+1. Crear un conjunto de datos de personajes mitológicos de diversas culturas.
+2. Analizar el conjunto de datos.
+3. Crear una herramienta de análisis de personajes mitológicos.
+
+### Creación del conjunto de datos
+
+El conjunto de datos se obtendrá utilizando herramientas de web-scraping en Python.  
+
+Todos los datos se extraerán de la enciclopedia digital [Wikipedia](https://wikipedia.es). Hay que señalar que cualquier persona puede editar esta enciclopedia, por lo que es posible que el conjunto de datos tenga errores. Sin embargo, Wikipedia es una de las plataformas de contenido libre más completas de internet.  
+Existen artículos en Wikipedia de prácticamente todos los personajes mitológicos. Estos artículos están clasificados en categorías similares, por lo que se navegará a través de estas categorías para obtener el texto disponible de los personajes. Además se añadirá información adicional de cada personaje en función de la categoría en la que se encuentre.  
+
+Por otro lado, los artículos pueden tener enlaces a artículos de otros personajes, así que también se extraerá una matriz con estas relaciones.  
+
+### Análisis del conjunto de datos
+
+Se realizará un análisis exploratorio de los datos y se usarán técnicas de análisis de grafos sobre la matriz de enlaces para crear un índice de importancia de los personajes.  
+
+La variable más importante de los personajes es el texto extraído de Wikipedia, así que también se aplicarán diversas técnicas de análisis de texto. Así mismo se aplicarán técnicas de análisis de grafos sobre las conclusiones del análisis de texto.
+
+### Aplicación para la creación de personajes
+
+Se creará una herramienta interactiva con la que poder analizar personajes o mitologías de diversas maneras. Por ejemplo, a partir de la palabra "mar", se podrá obtener un conjunto de características comunes a personajes mitológicos relacionados con el mar.
+
+
+<!-- pandoc writes all tables using longtable, which fails in 2-column mode
+
+  Species                    CBS     CV     G3
+  ----------------------- ------ ------ ------
+  1\. Acetaldehyde           0.0    0.0    0.0
+  2\. Vinyl alcohol          9.1    9.6   13.5
+  3\. Hydroxyethylidene     50.8   51.2   54.0
+
+  : Comparison of the fitted potential energy surfaces and ab initio
+  benchmark electronic energy calculations
+
+-->
+

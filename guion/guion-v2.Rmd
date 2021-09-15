@@ -40,4 +40,4 @@ La variable más importante de los personajes es el texto extraído de Wikipedia
 
 ### Aplicación para la creación de personajes
 
-Se creará una herramuenta interactiva con la que poder analizar personajes o mitologías de diversas maneras. Por ejemplo, a partir de la palabra "mar", se podrá obtener un conjunto de características comunes a personajes mitológicos relacionados con el mar.
+Se creará una herramienta interactiva con la que poder analizar personajes o mitologías de diversas maneras. Por ejemplo, a partir de la palabra "mar", se podrá obtener un conjunto de características comunes a personajes mitológicos relacionados con el mar.

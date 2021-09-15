@@ -1,0 +1,155 @@
+\documentclass[letterpaper,9pt,twocolumn,twoside,]{pinp}
+
+%% Some pieces required from the pandoc template
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Use the lineno option to display guide line numbers if required.
+% Note that the use of elements such as single-column equations
+% may affect the guide line number alignment.
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% pinp change: the geometry package layout settings need to be set here, not in pinp.cls
+\geometry{layoutsize={0.95588\paperwidth,0.98864\paperheight},%
+  layouthoffset=0.02206\paperwidth, layoutvoffset=0.00568\paperheight}
+
+\definecolor{pinpblue}{HTML}{185FAF}  % imagecolorpicker on blue for new R logo
+\definecolor{pnasbluetext}{RGB}{101,0,0} %
+
+
+
+\title{Herramienta para el Análisis de Personajes Mitológicos}
+
+\author[]{Sergi Fornés}
+
+
+\setcounter{secnumdepth}{0}
+
+% Please give the surname of the lead author for the running footer
+\leadauthor{Author}
+
+% Keywords are not mandatory, but authors are strongly encouraged to provide them. If provided, please include two to five keywords, separated by the pipe symbol, e.g:
+ \keywords{  one |  two |  optional |  keywords |  here  }  
+
+\begin{abstract}
+Your abstract will be typeset here, and used by default a visually
+distinctive font. An abstract should explain to the general reader the
+major contributions of the article.
+\end{abstract}
+
+\dates{This version was compiled on \today} 
+
+
+% initially we use doi so keep for backwards compatibility
+% new name is doi_footer
+\doifooter{\url{https://cran.r-project.org/package=YourPackage}}
+
+\pinpfootercontents{YourPackage Vignette}
+
+\begin{document}
+
+% Optional adjustment to line up main text (after abstract) of first page with line numbers, when using both lineno and twocolumn options.
+% You should only change this length when you've finalised the article contents.
+\verticaladjustment{-2pt}
+
+\maketitle
+\thispagestyle{firststyle}
+\ifthenelse{\boolean{shortarticle}}{\ifthenelse{\boolean{singlecolumn}}{\abscontentformatted}{\abscontent}}{}
+
+% If your first paragraph (i.e. with the \dropcap) contains a list environment (quote, quotation, theorem, definition, enumerate, itemize...), the line after the list may have some extra indentation. If this is the case, add \parshape=0 to the end of the list environment.
+
+\acknow{This template package builds upon, and extends, the work of the
+excellent \href{https://cran.r-project.org/package=rticles}{rticles}
+package, and both packages rely on the
+\href{http://www.pnas.org/site/authors/latex.xhtml}{PNAS LaTeX} macros.
+Both these sources are gratefully acknowledged as this work would not
+have been possible without them. Our extensions are under the same
+respective licensing term
+(\href{https://www.gnu.org/licenses/gpl-3.0.en.html}{GPL-3} and
+\href{https://www.latex-project.org/lppl/}{LPPL (\textgreater= 1.3)}).}
+
+\hypertarget{guiuxf3n}{%
+\subsection{Guión}\label{guiuxf3n}}
+
+Entender la mitología es entender al ser humano. Diferentes culturas han
+creado mitos para responder cuestiones complejas de manera sencilla. En
+estos mitos aparecen personajes sobrenaturales y las relaciones que
+mantienen con los seres humanos.
+
+En los mitos aparecen todo tipo de personajes, desde diosas del amor
+hasta monstruos devoradores de humanos. Dada esta diversidad aparecen
+preguntas interesantes, ¿diferentes culturas tienen personajes
+similares? ¿existen relaciones entre las características de los
+personajes? ¿y entre los mismos personajes?
+
+Los objetivos de este trabajo son:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Crear un conjunto de datos de personajes mitológicos de diversas
+  culturas.
+\item
+  Analizar el conjunto de datos.
+\item
+  Crear una herramienta de análisis de personajes mitológicos.
+\end{enumerate}
+
+\hypertarget{creaciuxf3n-del-conjunto-de-datos}{%
+\subsubsection{Creación del conjunto de
+datos}\label{creaciuxf3n-del-conjunto-de-datos}}
+
+El conjunto de datos se obtendrá utilizando herramientas de web-scraping
+en Python.
+
+Todos los datos se extraerán de la enciclopedia digital
+\href{https://wikipedia.es}{Wikipedia}. Hay que señalar que cualquier
+persona puede editar esta enciclopedia, por lo que es posible que el
+conjunto de datos tenga errores. Sin embargo, Wikipedia es una de las
+plataformas de contenido libre más completas de internet.\\
+Existen artículos en Wikipedia de prácticamente todos los personajes
+mitológicos. Estos artículos están clasificados en categorías similares,
+por lo que se navegará a través de estas categorías para obtener el
+texto disponible de los personajes. Además se añadirá información
+adicional de cada personaje en función de la categoría en la que se
+encuentre.
+
+Por otro lado, los artículos pueden tener enlaces a artículos de otros
+personajes, así que también se extraerá una matriz con estas relaciones.
+
+\hypertarget{anuxe1lisis-del-conjunto-de-datos}{%
+\subsubsection{Análisis del conjunto de
+datos}\label{anuxe1lisis-del-conjunto-de-datos}}
+
+Se realizará un análisis exploratorio de los datos y se usarán técnicas
+de análisis de grafos sobre la matriz de enlaces para crear un índice de
+importancia de los personajes.
+
+La variable más importante de los personajes es el texto extraído de
+Wikipedia, así que también se aplicarán diversas técnicas de análisis de
+texto. Así mismo se aplicarán técnicas de análisis de grafos sobre las
+conclusiones del análisis de texto.
+
+\hypertarget{aplicaciuxf3n-para-la-creaciuxf3n-de-personajes}{%
+\subsubsection{Aplicación para la creación de
+personajes}\label{aplicaciuxf3n-para-la-creaciuxf3n-de-personajes}}
+
+Se creará una herramienta interactiva con la que poder analizar
+personajes o mitologías de diversas maneras. Por ejemplo, a partir de la
+palabra ``mar'', se podrá obtener un conjunto de características comunes
+a personajes mitológicos relacionados con el mar.
+
+%\showmatmethods
+\showacknow
+
+
+\bibliography{pinp}
+\bibliographystyle{jss}
+
+
+
+\end{document}
+
