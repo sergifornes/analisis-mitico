@@ -1,44 +1,131 @@
 ---
-title: "Análisis de Personajes Mitológicos"
-subtitle: "Trabajo Final del Máster de Análisis de Datos Masivos en Economía y Empresa"
-author: "Sergi Fornés"
-output: pdf_document
-urlcolor: "blue"
+title: Análisis de Personajes Mitológicos
+
+subtitle: Trabajo Final de Máster
+
+# Use letters for affiliations
+author:
+  - name: Sergi Fornés
+  #   affiliation: a
+  # - name: Second Author
+  #   affiliation: a,b
+# address:
+#   - code: a
+#     address: Institute of Smoke and Magic, University of Sometown, Sometown, XY, 12345
+#   - code: b
+#     address: Department of Neat Tricks, Whereever State University, Someplace, MC, 67890
+    
+# Optional: line of arbitrary text with additional information.
+# Could be used, for example, to mention the bibliographic info in a post-print.
+# If not specified, defaults to "This version was compiled on \today"
+#date_subtitle: Published in *Journal of Statistical Software*, 2018
+
+# For footer text  TODO(fold into template, allow free form two-authors)
+# lead_author_surname: Author and Author
+
+# Place eg a DOI URL or CRAN Package URL here
+# doi_footer: "https://cran.r-project.org/package=YourPackage"
+
+# Abstract
+abstract: |
+  El objetivo de este trabajo es crear una base de datos de personajes mitológicos a partir de [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Una vez hecho esto, se pretenden analizar los artículos de estos personajes y las relaciones entre ellos haciendo uso de algoritmos de NLP y Network Analysis.
+
+# Optional: Acknowledgements
+# acknowledgements: |
+#   This template package builds upon, and extends, the work of the excellent
+#   [rticles](https://cran.r-project.org/package=rticles) package, and both packages rely on the
+#   [PNAS LaTeX](http://www.pnas.org/site/authors/latex.xhtml) macros. Both these sources are
+#   gratefully acknowledged as this work would not have been possible without them.  Our extensions
+#   are under the same respective licensing term
+#   ([GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html) and
+#   [LPPL (>= 1.3)](https://www.latex-project.org/lppl/)).
+
+# Optional: One or more keywords
+# keywords:
+#   - one
+#   - two
+#   - optional
+#   - keywords
+#   - here
+
+# Paper size for the document, values of letter and a4
+papersize: letter
+
+# Font size of the document, values of 9pt (default), 10pt, 11pt and 12pt
+fontsize: 11pt
+
+# Optional: Force one-column layout, default is two-column
+#one_column: true
+
+# Optional: Enables lineno mode, but only if one_column mode is also true
+#lineno: true
+
+# Optional: Enable one-sided layout, default is two-sided
+#one_sided: true
+
+# Optional: Enable section numbering, default is unnumbered
+#numbersections: true
+
+# Optional: Specify the depth of section number, default is 5
+#secnumdepth: 5
+
+# Optional: Skip inserting final break between acknowledgements, default is false
+skip_final_break: true
+
+# Optional: Bibliography 
+# bibliography: pinp
+
+# Optional: Enable a 'Draft' watermark on the document
+#watermark: true
+
+# Customize footer, eg by referencing the vignette
+footer_contents: "Sergi Fornés"
+
+keep_tex: FALSE
+
+date_subtitle: "Trabajo Final de Máster"
+
+document_date: "Guión"
+
+
+# Produce a pinp document
+output: pinp::pinp
+
+# Required: Vignette metadata for inclusion in a package.
+vignette: >
+  %\VignetteIndexEntry{YourPackage-vignetteentry}
+  %\VignetteKeywords{YourPackage, r, anotherkeyword}
+  %\VignettePackage{YourPackage}
+  %\VignetteEngine{knitr::rmarkdown}
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r, include=FALSE, eval=FALSE}
+library(rmarkdown)
+render("guion-tfm.Rmd")
 ```
 
-## Guión
+# Guión
 
 Entender la mitología es entender al ser humano. Diferentes culturas han creado mitos para responder cuestiones complejas de manera sencilla. En estos mitos aparecen personajes sobrenaturales y las relaciones que mantienen con los seres humanos.
 
-
-En los mitos aparecen todo tipo de personajes, desde diosas del amor hasta monstruos devoradores de humanos. Dada esta diversidad aparecen preguntas interesantes, ¿diferentes culturas tienen personajes similares? ¿existen relaciones entre las características de los personajes? ¿y entre los mismos personajes?
+En los mitos aparecen todo tipo de personajes, desde diosas del amor hasta monstruos devoradores de humanos. Dada esta diversidad aparecen preguntas interesantes, ¿diferentes culturas tienen personajes similares? ¿existen relaciones entre las características de diferentes personajes? ¿y entre las características de los mismos personajes?
 
 Los objetivos de este trabajo son:
 
-1. Obtener un conjunto de datos de personajes mitológicos de diversas culturas.
+1. Crear un conjunto de datos de personajes mitológicos de diversas culturas.
 2. Analizar el conjunto de datos.
-3. Crear una aplicación de creación de personajes a partir de personajes mitológicos.
 
-### Obtención del conjunto de datos
+## Creación del conjunto de datos
 
-El conjunto de datos se obtendrá utilizando herramientas de web-scraping en Python.  
+El conjunto de datos se obtendrá utilizando librerías de web-scraping (`Beautiful Soup` y `Selenium`) de Python.  
 
 Todos los datos se extraerán de la enciclopedia digital [Wikipedia](https://wikipedia.es). Hay que señalar que cualquier persona puede editar esta enciclopedia, por lo que es posible que el conjunto de datos tenga errores. Sin embargo, Wikipedia es una de las plataformas de contenido libre más completas de internet.  
-Existen artículos en Wikipedia de prácticamente todos los personajes mitológicos. Estos artículos están clasificados en categorías similares, por lo que se navegará a través de estas categorías para obtener el texto disponible de los personajes. Además se añadirá información adicional de cada personaje en función de la categoría en la que se encuentre.  
+Existen artículos en Wikipedia de prácticamente todos los personajes mitológicos. Estos artículos están clasificados en categorías similares, por lo que se navegará a través de estas categorías para obtener el texto disponible de los personajes. Además se añadirá información adicional de cada personaje en función de la categoría en la que se encuentre, como la mitología, la región, el continente, o el tipo de personaje (deidad, héroe, monstruo,...).  
 
-Por otro lado, los artículos pueden tener enlaces a artículos de otros personajes, así que también se extraerá una matriz con estas relaciones.  
+Por otro lado, los artículos de los personajes mitológicos están relacionados entre sí mediante enlaces, así que también se extraerá una matriz con estas relaciones.  
 
-### Análisis del conjunto de datos
+## Análisis del conjunto de datos
 
-Se realizará un análisis exploratorio de los datos y se usarán técnicas de análisis de grafos sobre la matriz de enlaces para crear un índice de importancia de los personajes.  
+Se realizará un análisis exploratorio de los datos y se usarán técnicas de análisis de grafos sobre la matriz de relaciones para crear un índice de importancia de los personajes.  
 
-La variable más importante de los personajes es el texto extraído de Wikipedia, así que también se aplicarán diversas técnicas de análisis de texto. Así mismo se aplicarán técnicas de análisis de grafos sobre las conclusiones del análisis de texto.
-
-### Aplicación para la creación de personajes
-
-Se creará una aplicación interactiva con la que poder crear personajes a partir del input aportado. Por ejemplo, a partir de la palabra "mar", se obtendrá un conjunto de características comunes a personajes mitológicos relacionados con el mar.  
-Se podrá especificar la mitología, la región o la clase de personaje creado. También se podrá especificar si se quiere un personaje positivo o negativo realizando un análisis de sentimiento.
+La variable más importante de los personajes es el texto extraído de Wikipedia, así que también se aplicarán diversos algoritmos de NLP para su análisis.
