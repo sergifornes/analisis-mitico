@@ -2,8 +2,9 @@
 #####
 
 # Personaje "Divinidades hinduistas"
-
-
+# Falta mitología turca
+# No scrapear el texto "[editar]" de los títulos de sección de la Wikipedia. Ejemplo en: https://es.wikipedia.org/wiki/Vanir
+# No scrapear el texto "[cita requerida]" de algunos textos. Ejemplo en: https://es.wikipedia.org/wiki/Vanir
 
 #####
 
@@ -13,6 +14,8 @@
 
 library(tidyverse)
 library(igraph)
+library(tidytext)
+library(tm)
 
 
 
@@ -201,6 +204,7 @@ plot(
 )
 
 
+
 ##########
 # Personajes pertenecientes a diversas mitologías
 ##########
@@ -214,7 +218,41 @@ personajes %>%
   labs(x = "Cantidad de mitologías", y = "Cantidad de personajes") +
   theme_light()
 
+
+
 ##############################
 ########## PRUEBAS
 ##############################
+
+##########
+# Importancia de los personajes usando la matriz de relaciones
+##########
+
+
+
+##########
+# Conejo
+##########
+
+stopwords_esp <- rbind(
+  tibble(Palabra = tm::stopwords("spanish"), lexicon = "tm"),
+  mutate(read_table("stop_words_spanish.txt", col_names = "Palabra"), lexicon = "countwordsfree.com")
+)
+
+personajes %>%
+  select(Nombre, Texto) %>%
+  unnest_tokens(Palabra, Texto) %>%
+  anti_join(stopwords_esp) %>%
+  filter(str_length(Palabra) > 1) -> tidy_personajes
+tidy_personajes
+
+tidy_personajes %>%
+  count(Palabra, sort = T) %>%
+  head(20) %>%
+  ggplot(aes(n, reorder(Palabra, n))) +
+  geom_col() +
+  labs(x = "Cantidad de apariciones", y = "Palabra") +
+  theme_light()
+
+# pag22
 

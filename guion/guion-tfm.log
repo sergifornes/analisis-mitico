@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.23)  23 SEP 2021 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.23)  4 OCT 2021 09:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1704,7 +1704,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.59595pt on input line 68.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
-8.
+9.
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1713,7 +1713,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 2460) in paragraph at lines 97--99
+Underfull \hbox (badness 2460) in paragraph at lines 98--100
 [] []\T1/phv/b/n/10.95 (+20) Creación del con-junto de datos.[] \T1/mdbch/m/n/1
 0.95 (+20) El con-junto de
  []
@@ -1726,7 +1726,7 @@ Left:612.3661pt/0.0pt
 Right:612.3661pt/0.0pt
 Output:612.3661pt
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.18097pt on input line 135.
+(Font)              scaled to size 6.18097pt on input line 136.
 [1{c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}
 
@@ -1736,11 +1736,11 @@ Package rerunfilecheck Info: File `guion-tfm.out' has not changed.
 (rerunfilecheck)             Checksum: 87DEDCC988FBEB9E4882598B17E7FA7F;499.
  ) 
 Here is how much of TeX's memory you used:
- 29964 strings out of 480541
- 538083 string characters out of 5900845
- 880536 words of memory out of 5000000
+ 29972 strings out of 480541
+ 538152 string characters out of 5900845
+ 881532 words of memory out of 5000000
  46836 multiletter control sequences out of 15000+600000
- 455413 words of font info for 160 fonts, out of 8000000 for 9000
+ 455656 words of font info for 165 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,11n,122p,452b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
@@ -1752,7 +1752,7 @@ pe1/public/lm/lmssbx10.pfb><c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/f
 onts/type1/public/lm/lmtt10.pfb><c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-d
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/Sergi/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on guion-tfm.pdf (1 page, 83518 bytes).
+Output written on guion-tfm.pdf (1 page, 83579 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream

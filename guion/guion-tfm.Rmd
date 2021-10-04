@@ -28,7 +28,7 @@ author:
 
 # Abstract
 abstract: |
-  El objetivo de este trabajo es crear una base de datos de personajes mitológicos a partir de [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Una vez hecho esto, se pretenden analizar los artículos de estos personajes y las relaciones entre ellos haciendo uso de algoritmos de NLP y Network Analysis.
+  El objetivo del trabajo es crear una base de datos de personajes mitológicos a partir de [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Una vez hecho esto, se pretenden analizar los artículos de estos personajes y las relaciones entre ellos haciendo uso de algoritmos de NLP y Network Analysis.
 
 # Optional: Acknowledgements
 # acknowledgements: |
@@ -113,7 +113,7 @@ En los mitos aparecen todo tipo de personajes, desde diosas del amor hasta monst
 Los objetivos de este trabajo son:
 
 1. Crear un conjunto de datos de personajes mitológicos de diversas culturas.
-2. Analizar el conjunto de datos.
+2. Analizar el conjunto de datos, principalmente el texto de los personajes mitológicos.
 
 ## Creación del conjunto de datos
 
