@@ -5,6 +5,7 @@
 # Falta mitología turca
 # No scrapear el texto "[editar]" de los títulos de sección de la Wikipedia. Ejemplo en: https://es.wikipedia.org/wiki/Vanir
 # No scrapear el texto "[cita requerida]" de algunos textos. Ejemplo en: https://es.wikipedia.org/wiki/Vanir
+# Dejar texto_RAW
 
 #####
 
@@ -256,3 +257,4 @@ tidy_personajes %>%
 
 # pag22
 
+# Diferencias entre dioses y diosas

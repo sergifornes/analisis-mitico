@@ -28,7 +28,7 @@ author:
 
 # Abstract
 abstract: |
-  El objetivo del trabajo es crear una base de datos de personajes mitológicos a partir de [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Una vez hecho esto, se pretenden analizar los artículos de estos personajes y las relaciones entre ellos haciendo uso de algoritmos de NLP y Network Analysis.
+  El objetivo del trabajo es crear una base de datos de personajes mitológicos a partir de [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Una vez hecho esto, se pretenden analizar los artículos de estos personajes y las relaciones entre ellos haciendo uso de algoritmos de Procesamiento de Lenguaje Natural (NLP) y Network Analysis.
 
 # Optional: Acknowledgements
 # acknowledgements: |
@@ -41,12 +41,12 @@ abstract: |
 #   [LPPL (>= 1.3)](https://www.latex-project.org/lppl/)).
 
 # Optional: One or more keywords
-# keywords:
-#   - one
-#   - two
-#   - optional
-#   - keywords
-#   - here
+keywords:
+  - mitología
+  - web scraping
+  - wikipedia
+  - natural language processing
+  - network analysis
 
 # Paper size for the document, values of letter and a4
 papersize: letter

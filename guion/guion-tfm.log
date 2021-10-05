@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.23)  4 OCT 2021 09:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.23)  5 OCT 2021 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1422,42 +1422,42 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (./guion-tfm.aux)
 \openout1 = `guion-tfm.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 55.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 5
-4.
+5.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathdesign/mdacmr.
 fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 55.
 LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 5
-4.
+5.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathdesign/mdbcmr.
 fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
@@ -1477,7 +1477,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 54.
+Package hyperref Info: Link coloring ON on input line 55.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -1493,9 +1493,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 (./guion-tfm.out) (./guion-tfm.out)
 \@outlinefile=\write5
 \openout5 = `guion-tfm.out'.
@@ -1540,23 +1540,23 @@ Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: `float' package detected.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 54.
+(lastpage)             ! on input line 55.
 
 Package mathdesign/mdbch Warning: Package 'amssymb' shouldn't be used in conjon
-ction with package mdbch, on input line 54.
+ction with package mdbch, on input line 55.
 
 
 Package mathdesign/mdbch Warning: Package 'amsfonts' shouldn't be used in conjo
-nction with package mdbch, on input line 54.
+nction with package mdbch, on input line 55.
 
-LaTeX Info: Redefining \microtypecontext on input line 54.
+LaTeX Info: Redefining \microtypecontext on input line 55.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 54.
+LaTeX Info: Redefining \showhyphens on input line 55.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1567,85 +1567,85 @@ File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 
 )
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
-0.
+1.
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 60.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 61.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <22> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 60.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.6688pt on input line 60.
+(Font)              scaled to size 9.6688pt on input line 61.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.6688pt on input line 60.
+(Font)              scaled to size 9.6688pt on input line 61.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.94696pt on input line 60.
+(Font)              scaled to size 7.94696pt on input line 61.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.18097pt on input line 60.
+(Font)              scaled to size 6.18097pt on input line 61.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.06396pt on input line 62.
+(Font)              scaled to size 7.06396pt on input line 63.
 LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
- 62.
+ 63.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathdesign/mdbch/o
 t1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 62.
+(Font)              scaled to size 7.68005pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 62.
+(Font)              scaled to size 5.76004pt on input line 63.
 LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
- 62.
+ 63.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathdesign/mdbch/o
 mlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 62.
+(Font)              scaled to size 7.68005pt on input line 63.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 62.
+(Font)              scaled to size 5.76004pt on input line 63.
 LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
- 62.
+ 63.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathdesign/mdbch/o
 msmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 62.
+(Font)              scaled to size 7.68005pt on input line 63.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 62.
+(Font)              scaled to size 5.76004pt on input line 63.
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 62.
+ 63.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathdesign/mdbch/o
 mxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 62.
+(Font)              scaled to size 7.68005pt on input line 63.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 62.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+(Font)              scaled to size 5.76004pt on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1654,7 +1654,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 fg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1664,47 +1664,47 @@ fg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 62.
+(Font)              scaled to size 7.68005pt on input line 63.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 62.
+(Font)              scaled to size 5.76004pt on input line 63.
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 62.
+ 63.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathdesign/mdbch/m
 damdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 62.
+(Font)              scaled to size 7.68005pt on input line 63.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 62.
+(Font)              scaled to size 5.76004pt on input line 63.
 LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
- 62.
+ 63.
 
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathdesign/mdbch/m
 dbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 62.
+(Font)              scaled to size 7.68005pt on input line 63.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 62.
+(Font)              scaled to size 5.76004pt on input line 63.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 62.
+(Font)              scaled to size 6.72005pt on input line 63.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 68.
+(Font)              scaled to size 11.52008pt on input line 69.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.59595pt on input line 68.
+(Font)              scaled to size 10.59595pt on input line 69.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.59595pt on input line 68.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
-9.
+(Font)              scaled to size 10.59595pt on input line 69.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+00.
 (c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1713,7 +1713,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 2460) in paragraph at lines 98--100
+Underfull \hbox (badness 2460) in paragraph at lines 99--101
 [] []\T1/phv/b/n/10.95 (+20) Creación del con-junto de datos.[] \T1/mdbch/m/n/1
 0.95 (+20) El con-junto de
  []
@@ -1726,7 +1726,7 @@ Left:612.3661pt/0.0pt
 Right:612.3661pt/0.0pt
 Output:612.3661pt
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.18097pt on input line 136.
+(Font)              scaled to size 6.18097pt on input line 137.
 [1{c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}
 
@@ -1736,11 +1736,11 @@ Package rerunfilecheck Info: File `guion-tfm.out' has not changed.
 (rerunfilecheck)             Checksum: 87DEDCC988FBEB9E4882598B17E7FA7F;499.
  ) 
 Here is how much of TeX's memory you used:
- 29972 strings out of 480541
- 538152 string characters out of 5900845
- 881532 words of memory out of 5000000
+ 29982 strings out of 480541
+ 538260 string characters out of 5900845
+ 881658 words of memory out of 5000000
  46836 multiletter control sequences out of 15000+600000
- 455656 words of font info for 165 fonts, out of 8000000 for 9000
+ 456524 words of font info for 172 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,11n,122p,452b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
@@ -1752,10 +1752,10 @@ pe1/public/lm/lmssbx10.pfb><c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-dist/f
 onts/type1/public/lm/lmtt10.pfb><c:/Users/Sergi/AppData/Roaming/TinyTeX/texmf-d
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/Sergi/AppData/Roaming/TinyTeX
 /texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on guion-tfm.pdf (1 page, 83579 bytes).
+Output written on guion-tfm.pdf (1 page, 83939 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 46629 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 50725 words of extra memory for PDF output out of 51595 (max. 10000000)
 
