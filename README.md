@@ -1,6 +1,6 @@
 # Análisis de Personajes Mitológicos
 
-(Enlace a la aplicación)[https://app.powerbi.com/view?r=eyJrIjoiNzhhMjFkM2ItNDRiYS00YWEzLTljODItNjI1NWZiZWU5NWUyIiwidCI6IjcxYmIzNDU4LWQ3NWYtNDcxNi1hNWNiLTY0N2NkYWNiYzBhZiIsImMiOjh9&pageName=ReportSection1770ce719e63217f1c1f]
+[Enlace a la aplicación](https://app.powerbi.com/view?r=eyJrIjoiNzhhMjFkM2ItNDRiYS00YWEzLTljODItNjI1NWZiZWU5NWUyIiwidCI6IjcxYmIzNDU4LWQ3NWYtNDcxNi1hNWNiLTY0N2NkYWNiYzBhZiIsImMiOjh9&pageName=ReportSection1770ce719e63217f1c1f)
 
 **El objetivo del trabajo es crear una base de datos de personajes mitológicos a partir de [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Una vez hecho esto, se pretenden analizar los artículos de estos personajes y las relaciones entre ellos haciendo uso de algoritmos de Procesamiento de Lenguaje Natural (NLP) y Network Analysis.**
 
