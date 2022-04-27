@@ -107,12 +107,12 @@ podriamos
 podrian
 podrias
 por
-por qué
 porque
 primero
 puede
 pueden
 puedo
+qué
 quien
 sabe
 sabeis
@@ -441,3 +441,6 @@ ver
 vez
 y
 ya
+cita
+requerida
+editar

@@ -1,0 +1,617 @@
+to,from,weight,weightFrom,continenteFrom,weightTo,continenteTo
+Mitología griega,Mitología fenicia,4,28,Asia,1185,Europa
+Mitología griega,Mitología frigia,7,10,Asia,1185,Europa
+Mitología griega,Mitología bereber,2,6,África,1185,Europa
+Mitología griega,Mitología de Argólida,1,1,Europa,1185,Europa
+Mitología griega,Mitología de Creta,6,6,Europa,1185,Europa
+Mitología griega,Mitología persa,2,22,Asia,1185,Europa
+Mitología griega,Mitología romana,25,243,Europa,1185,Europa
+Mitología griega,Mitología cántabra,1,21,Europa,1185,Europa
+Mitología griega,Mitología europea,3,60,Europa,1185,Europa
+Mitología griega,Mitología ática,1,1,Europa,1185,Europa
+Mitología griega,Mitología tracia,1,5,Europa,1185,Europa
+Mitología griega,Mitología cristiana,1,25,Asia,1185,Europa
+Mitología griega,Mitología laconia,1,1,Europa,1185,Europa
+Mitología griega,Mitología germana,1,26,Europa,1185,Europa
+Mitología griega,Mitología egipcia,3,145,África,1185,Europa
+Mitología griega,Mitología mesopotámica,2,91,Asia,1185,Europa
+Mitología griega,Mitología asiria,1,14,Asia,1185,Europa
+Mitología griega,Mitología de Oriente Medio,1,16,Asia,1185,Europa
+Mitología griega,Mitología vasca,1,16,Europa,1185,Europa
+Mitología griega,Mitología asturiana,2,17,Europa,1185,Europa
+Mitología griega,Mitología filistea,1,4,Asia,1185,Europa
+Mitología griega,Mitología babilónica,1,59,Asia,1185,Europa
+Mitología griega,Mitología acadia,1,70,Asia,1185,Europa
+Mitología griega,Mitología sumeria,1,91,Asia,1185,Europa
+Mitología guaraní,Mitología amazónica,1,10,América,14,América
+Mitología guaraní,Mitología americana,1,52,América,14,América
+Mitología guaraní,Mitología cristiana,1,25,Asia,14,América
+Mitología guaraní,Mitología argentina,2,8,América,14,América
+Mitología celta,Mitología europea,5,60,Europa,98,Europa
+Mitología celta,Mitología irlandesa,16,24,Europa,98,Europa
+Mitología celta,Mitología anglosajona,2,14,Europa,98,Europa
+Mitología celta,Mitología germana,3,26,Europa,98,Europa
+Mitología celta,Mitología española,1,11,Europa,98,Europa
+Mitología celta,Mitología gala,3,10,Europa,98,Europa
+Mitología celta,Mitología romana,3,243,Europa,98,Europa
+Mitología celta,Mitología cántabra,2,21,Europa,98,Europa
+Mitología celta,Mitología asturiana,3,17,Europa,98,Europa
+Mitología celta,Mitología portuguesa,1,3,Europa,98,Europa
+Mitología celta,Mitología de Galicia,2,11,Europa,98,Europa
+Mitología celta,Mitología finlandesa,1,27,Europa,98,Europa
+Mitología celta,Mitología galesa,1,5,Europa,98,Europa
+Mitología europea,Mitología irlandesa,2,24,Europa,60,Europa
+Mitología europea,Mitología íbera,5,5,Europa,60,Europa
+Mitología europea,Mitología de Creta,1,6,Europa,60,Europa
+Mitología europea,Mitología germana,3,26,Europa,60,Europa
+Mitología europea,Mitología anglosajona,1,14,Europa,60,Europa
+Mitología europea,Mitología eslava,1,19,Europa,60,Europa
+Mitología europea,Mitología de Oriente Medio,1,16,Asia,60,Europa
+Mitología europea,Mitología de Galicia,1,11,Europa,60,Europa
+Mitología europea,Mitología romana,1,243,Europa,60,Europa
+Mitología europea,Mitología Báltica,1,1,Europa,60,Europa
+Mitología europea,Mitología americana,1,52,América,60,Europa
+Mitología europea,Mitología española,1,11,Europa,60,Europa
+Mitología europea,Mitología asiática,1,39,Asia,60,Europa
+Mitología hinduista,Mitología budista,27,78,Asia,239,Asia
+Mitología hinduista,Mitología asiática,3,39,Asia,239,Asia
+Mitología hinduista,Mitología persa,1,22,Asia,239,Asia
+Mitología hinduista,Mitología china,1,96,Asia,239,Asia
+Mitología budista,Mitología japonesa,12,184,Asia,78,Asia
+Mitología budista,Mitología china,8,96,Asia,78,Asia
+Mitología budista,Mitología asiática,3,39,Asia,78,Asia
+Mitología yoruba,Mitología africana,3,21,África,50,África
+Mitología yoruba,Mitología vudú,2,13,África,50,África
+Mitología yoruba,Mitología afroamericana,2,3,África,50,África
+Mitología persa,Mitología asiática,1,39,Asia,22,Asia
+Mitología persa,Mitología de Oriente Medio,1,16,Asia,22,Asia
+Mitología persa,Mitología árabe,1,19,Asia,22,Asia
+Mitología estadounidense,Mitología de América del Norte,3,17,América,10,América
+Mitología estadounidense,Mitología canadiense,2,6,América,10,América
+Mitología estadounidense,Mitología francesa,1,8,Europa,10,América
+Mitología africana,Mitología igbo,2,4,África,21,África
+Mitología africana,Mitología afroamericana,1,3,África,21,África
+Mitología africana,Mitología bereber,1,6,África,21,África
+Mitología africana,Mitología malgache,3,3,África,21,África
+Mitología africana,Mitología zulú,1,5,África,21,África
+Mitología japonesa,Mitología ainu,2,3,Asia,184,Asia
+Mitología japonesa,Mitología china,15,96,Asia,184,Asia
+Mitología japonesa,Mitología egipcia,1,145,África,184,Asia
+Mitología japonesa,Mitología coreana,5,24,Asia,184,Asia
+Mitología japonesa,Mitología asiática,4,39,Asia,184,Asia
+Mitología romana,Mitología fenicia,3,28,Asia,243,Europa
+Mitología romana,Mitología de Oriente Medio,2,16,Asia,243,Europa
+Mitología romana,Mitología árabe,3,19,Asia,243,Europa
+Mitología romana,Mitología cartaginesa,1,5,África,243,Europa
+Mitología romana,Mitología frigia,1,10,Asia,243,Europa
+Mitología romana,Mitología egipcia,2,145,África,243,Europa
+Mitología romana,Mitología cristiana,1,25,Asia,243,Europa
+Mitología romana,Mitología del judaísmo,1,53,Asia,243,Europa
+Mitología romana,Mitología itálica,1,1,Europa,243,Europa
+Mitología cristiana,Mitología del judaísmo,11,53,Asia,25,Asia
+Mitología cristiana,Mitología del islam,3,16,Asia,25,Asia
+Mitología cristiana,Mitología fenicia,1,28,Asia,25,Asia
+Mitología cristiana,Mitología cartaginesa,1,5,África,25,Asia
+Mitología cristiana,Mitología mesopotámica,1,91,Asia,25,Asia
+Mitología cristiana,Mitología gala,1,10,Europa,25,Asia
+Mitología cristiana,Mitología argentina,1,8,América,25,Asia
+Mitología cristiana,Mitología abrahámica,1,2,Asia,25,Asia
+Mitología mexica,Mitología maya,5,70,América,179,América
+Mitología mexica,Mitología mexicana,6,15,América,179,América
+Mitología mexica,Mitología tolteca,8,8,América,179,América
+Mitología mexica,Mitología americana,4,52,América,179,América
+Mitología mexica,Mitología mesoamericana,3,6,América,179,América
+Mitología mexica,Mitología de América del Sur,1,31,América,179,América
+Mitología mexica,Mitología de América Central,1,8,América,179,América
+Mitología mexica,Mitología olmeca,2,2,América,179,América
+Mitología mexica,Mitología de América del Norte,1,17,América,179,América
+Mitología mexica,Mitología mixteca,1,6,América,179,América
+Mitología de América del Norte,Mitología canadiense,4,6,América,17,América
+Mitología de América del Norte,Mitología del Caribe,1,6,América,17,América
+Mitología de América del Norte,Mitología inuit,1,7,América,17,América
+Mitología del judaísmo,Mitología del islam,7,16,Asia,53,Asia
+Mitología del judaísmo,Mitología acadia,1,70,Asia,53,Asia
+Mitología del judaísmo,Mitología mesopotámica,2,91,Asia,53,Asia
+Mitología del judaísmo,Mitología abrahámica,1,2,Asia,53,Asia
+Mitología del judaísmo,Mitología asiática,1,39,Asia,53,Asia
+Mitología del islam,Mitología abrahámica,1,2,Asia,16,Asia
+Mitología nórdica,Mitología germana,7,26,Europa,304,Europa
+Mitología nórdica,Mitología anglosajona,3,14,Europa,304,Europa
+Mitología semítica,Mitología babilónica,1,59,Asia,21,Asia
+Mitología semítica,Mitología fenicia,9,28,Asia,21,Asia
+Mitología semítica,Mitología cartaginesa,2,5,África,21,Asia
+Mitología semítica,Mitología árabe,3,19,Asia,21,Asia
+Mitología semítica,Mitología mesopotámica,6,91,Asia,21,Asia
+Mitología semítica,Mitología acadia,1,70,Asia,21,Asia
+Mitología semítica,Mitología sumeria,1,91,Asia,21,Asia
+Mitología semítica,Mitología asiática,4,39,Asia,21,Asia
+Mitología semítica,Mitología cananea,5,8,Asia,21,Asia
+Mitología semítica,Mitología filistea,1,4,Asia,21,Asia
+Mitología semítica,Mitología egipcia,2,145,África,21,Asia
+Mitología semítica,Mitología abrahámica,1,2,Asia,21,Asia
+Mitología babilónica,Mitología fenicia,2,28,Asia,59,Asia
+Mitología babilónica,Mitología mesopotámica,27,91,Asia,59,Asia
+Mitología babilónica,Mitología acadia,51,70,Asia,59,Asia
+Mitología babilónica,Mitología sumeria,51,91,Asia,59,Asia
+Mitología babilónica,Mitología asiria,10,14,Asia,59,Asia
+Mitología babilónica,Mitología hurrita,2,5,Asia,59,Asia
+Mitología babilónica,Mitología egipcia,1,145,África,59,Asia
+Mitología babilónica,Mitología levantina,1,3,Asia,59,Asia
+Mitología babilónica,Mitología cananea,1,8,Asia,59,Asia
+Mitología babilónica,Mitología asiática,1,39,Asia,59,Asia
+Mitología fenicia,Mitología cartaginesa,3,5,África,28,Asia
+Mitología fenicia,Mitología mesopotámica,10,91,Asia,28,Asia
+Mitología fenicia,Mitología egipcia,3,145,África,28,Asia
+Mitología fenicia,Mitología de Oriente Medio,2,16,Asia,28,Asia
+Mitología fenicia,Mitología cananea,6,8,Asia,28,Asia
+Mitología fenicia,Mitología acadia,1,70,Asia,28,Asia
+Mitología fenicia,Mitología sumeria,1,91,Asia,28,Asia
+Mitología fenicia,Mitología asiria,2,14,Asia,28,Asia
+Mitología fenicia,Mitología levantina,2,3,Asia,28,Asia
+Mitología fenicia,Mitología asiática,5,39,Asia,28,Asia
+Mitología fenicia,Mitología filistea,2,4,Asia,28,Asia
+Mitología fenicia,Mitología árabe,1,19,Asia,28,Asia
+Mitología fenicia,Mitología bereber,1,6,África,28,Asia
+Mitología cartaginesa,Mitología mesopotámica,1,91,Asia,5,África
+Mitología cartaginesa,Mitología bereber,1,6,África,5,África
+Mitología mesopotámica,Mitología acadia,39,70,Asia,91,Asia
+Mitología mesopotámica,Mitología sumeria,52,91,Asia,91,Asia
+Mitología mesopotámica,Mitología egipcia,3,145,África,91,Asia
+Mitología mesopotámica,Mitología asiria,11,14,Asia,91,Asia
+Mitología mesopotámica,Mitología hurrita,2,5,Asia,91,Asia
+Mitología mesopotámica,Mitología levantina,2,3,Asia,91,Asia
+Mitología mesopotámica,Mitología asiática,6,39,Asia,91,Asia
+Mitología mesopotámica,Mitología cananea,5,8,Asia,91,Asia
+Mitología mesopotámica,Mitología filistea,2,4,Asia,91,Asia
+Mitología frigia,Mitología anatolia,1,2,Asia,10,Asia
+Mitología frigia,Mitología tracia,1,5,Europa,10,Asia
+Mitología de Oriente Medio,Mitología árabe,4,19,Asia,16,Asia
+Mitología de Oriente Medio,Mitología cananea,1,8,Asia,16,Asia
+Mitología de Oriente Medio,Mitología hurrita,1,5,Asia,16,Asia
+Mitología vudú,Mitología del Caribe,1,6,América,13,África
+Mitología maya,Mitología mexicana,7,15,América,70,América
+Mitología maya,Mitología americana,3,52,América,70,América
+Mitología maya,Mitología mesoamericana,2,6,América,70,América
+Mitología maya,Mitología tolteca,2,8,América,70,América
+Mitología maya,Mitología de América Central,1,8,América,70,América
+Mitología mexicana,Mitología mesoamericana,3,6,América,15,América
+Mitología mexicana,Mitología de América Central,1,8,América,15,América
+Mitología mexicana,Mitología de América del Sur,1,31,América,15,América
+Mitología mexicana,Mitología española,1,11,Europa,15,América
+Mitología mexicana,Mitología portuguesa,1,3,Europa,15,América
+Mitología mexicana,Mitología americana,2,52,América,15,América
+Mitología mexicana,Mitología tolteca,3,8,América,15,América
+Mitología egipcia,Mitología nubia,5,7,África,145,África
+Mitología egipcia,Mitología acadia,1,70,Asia,145,África
+Mitología egipcia,Mitología sumeria,1,91,Asia,145,África
+Mitología egipcia,Mitología asiria,1,14,Asia,145,África
+Mitología egipcia,Mitología levantina,1,3,Asia,145,África
+Mitología egipcia,Mitología china,1,96,Asia,145,África
+Mitología americana,Mitología chilena,3,12,América,52,América
+Mitología americana,Mitología de América del Sur,12,31,América,52,América
+Mitología americana,Mitología chibcha,4,5,América,52,América
+Mitología americana,Mitología talamanqueña,14,20,América,52,América
+Mitología americana,Mitología selknam,6,11,América,52,América
+Mitología americana,Mitología huilliche,1,3,América,52,América
+Mitología americana,Mitología aimara,1,5,América,52,América
+Mitología americana,Mitología incaica,1,14,América,52,América
+Mitología americana,Mitología boliviana,1,6,América,52,América
+Mitología americana,Mitología quechua,2,3,América,52,América
+Mitología americana,Mitología mesoamericana,2,6,América,52,América
+Mitología americana,Mitología tolteca,3,8,América,52,América
+Mitología americana,Mitología mapuche,1,16,América,52,América
+Mitología americana,Mitología venezolana,1,1,América,52,América
+Mitología americana,Mitología española,1,11,Europa,52,América
+Mitología americana,Mitología olmeca,1,2,América,52,América
+Mitología turca,Mitología altaica,3,4,Asia,8,Asia
+Mitología turca,Mitología asiática,1,39,Asia,8,Asia
+Mitología turca,Mitología siberiana,1,12,Asia,8,Asia
+Mitología altaica,Mitología asiática,1,39,Asia,4,Asia
+Mitología asiática,Mitología del Asia Central,1,2,Asia,39,Asia
+Mitología asiática,Mitología asiria,1,14,Asia,39,Asia
+Mitología asiática,Mitología cananea,4,8,Asia,39,Asia
+Mitología asiática,Mitología filistea,1,4,Asia,39,Asia
+Mitología asiática,Mitología coreana,7,24,Asia,39,Asia
+Mitología asiática,Mitología china,3,96,Asia,39,Asia
+Mitología asiática,Mitología acadia,1,70,Asia,39,Asia
+Mitología asiática,Mitología sumeria,1,91,Asia,39,Asia
+Mitología finlandesa,Mitología estonia,1,2,Europa,27,Europa
+Mitología siberiana,Mitología del Asia norte,1,2,Asia,12,Asia
+Mitología vasca,Mitología asturiana,1,17,Europa,16,Europa
+Mitología vasca,Mitología española,1,11,Europa,16,Europa
+Mitología germana,Mitología anglosajona,2,14,Europa,26,Europa
+Mitología chilena,Mitología de América del Sur,6,31,América,12,América
+Mitología chilena,Mitología argentina,4,8,América,12,América
+Mitología chilena,Mitología selknam,1,11,América,12,América
+Mitología chilena,Mitología chilota,1,29,América,12,América
+Mitología chilena,Mitología mapuche,1,16,América,12,América
+Mitología chilena,Mitología aimara,1,5,América,12,América
+Mitología chilena,Mitología peruana,1,3,América,12,América
+Mitología chilena,Mitología boliviana,1,6,América,12,América
+Mitología rusa,Mitología eslava,11,19,Europa,14,Europa
+Mitología rusa,Mitología ucraniana,2,4,Europa,14,Europa
+Mitología argentina,Mitología chilota,1,29,América,8,América
+Mitología argentina,Mitología mapuche,1,16,América,8,América
+Mitología catalana,Mitología española,4,11,Europa,7,Europa
+Mitología catalana,Mitología francesa,1,8,Europa,7,Europa
+Mitología catalana,Mitología asturiana,1,17,Europa,7,Europa
+Mitología catalana,Mitología portuguesa,1,3,Europa,7,Europa
+Mitología catalana,Mitología de Galicia,1,11,Europa,7,Europa
+Mitología catalana,Mitología castellana,1,3,Europa,7,Europa
+Mitología acadia,Mitología sumeria,62,91,Asia,70,Asia
+Mitología acadia,Mitología asiria,9,14,Asia,70,Asia
+Mitología acadia,Mitología hurrita,2,5,Asia,70,Asia
+Mitología acadia,Mitología levantina,1,3,Asia,70,Asia
+Mitología acadia,Mitología cananea,1,8,Asia,70,Asia
+Mitología sumeria,Mitología asiria,9,14,Asia,91,Asia
+Mitología sumeria,Mitología hurrita,2,5,Asia,91,Asia
+Mitología sumeria,Mitología levantina,1,3,Asia,91,Asia
+Mitología sumeria,Mitología cananea,1,8,Asia,91,Asia
+Mitología aimara,Mitología incaica,1,14,América,5,América
+Mitología aimara,Mitología peruana,1,3,América,5,América
+Mitología aimara,Mitología boliviana,1,6,América,5,América
+Mitología de América del Sur,Mitología peruana,1,3,América,31,América
+Mitología de América del Sur,Mitología chilota,1,29,América,31,América
+Mitología de América del Sur,Mitología selknam,11,11,América,31,América
+Mitología de América del Sur,Mitología española,1,11,Europa,31,América
+Mitología de América del Sur,Mitología portuguesa,1,3,Europa,31,América
+Mitología de América del Sur,Mitología amazónica,1,10,América,31,América
+Mitología de América del Sur,Mitología boliviana,1,6,América,31,América
+Mitología de América del Sur,Mitología de América Central,1,8,América,31,América
+Mitología peruana,Mitología boliviana,2,6,América,3,América
+Mitología cántabra,Mitología asturiana,4,17,Europa,21,Europa
+Mitología cántabra,Mitología de Galicia,4,11,Europa,21,Europa
+Mitología cántabra,Mitología portuguesa,1,3,Europa,21,Europa
+Mitología china,Mitología coreana,5,24,Asia,96,Asia
+Mitología asiria,Mitología hurrita,2,5,Asia,14,Asia
+Mitología asiria,Mitología levantina,1,3,Asia,14,Asia
+Mitología asiria,Mitología cananea,1,8,Asia,14,Asia
+Mitología hurrita,Mitología hitita,1,6,Asia,5,Asia
+Mitología hurrita,Mitología anatolia,1,2,Asia,5,Asia
+Mitología hitita,Mitología anatolia,1,2,Asia,6,Asia
+Mitología hitita,Mitología hattiana,2,2,Asia,6,Asia
+Mitología de Micronesia,Mitología oceánica,1,10,Oceanía,4,Oceanía
+Mitología cananea,Mitología filistea,1,4,Asia,8,Asia
+Mitología cananea,Mitología abrahámica,1,2,Asia,8,Asia
+Mitología levantina,Mitología filistea,1,4,Asia,3,Asia
+Mitología oceánica,Mitología de Polinesia,2,2,Oceanía,10,Oceanía
+Mitología oceánica,Mitología pascuense,4,4,Oceanía,10,Oceanía
+Mitología oceánica,Mitología samoana,1,1,Oceanía,10,Oceanía
+Mitología oceánica,Mitología hawaiana,1,7,Oceanía,10,Oceanía
+Mitología oceánica,Mitología maorí,1,4,Oceanía,10,Oceanía
+Mitología de Polinesia,Mitología maorí,1,4,Oceanía,2,Oceanía
+Mitología amazónica,Mitología colombiana,1,4,América,10,América
+Mitología amazónica,Mitología boliviana,1,6,América,10,América
+Mitología eslava,Mitología ucraniana,2,4,Europa,19,Europa
+Mitología chilota,Mitología mapuche,2,16,América,29,América
+Mitología francesa,Mitología asturiana,1,17,Europa,8,Europa
+Mitología francesa,Mitología española,2,11,Europa,8,Europa
+Mitología francesa,Mitología portuguesa,1,3,Europa,8,Europa
+Mitología francesa,Mitología de Galicia,1,11,Europa,8,Europa
+Mitología francesa,Mitología castellana,1,3,Europa,8,Europa
+Mitología colombiana,Mitología del Caribe,1,6,América,4,América
+Mitología asturiana,Mitología de Galicia,8,11,Europa,17,Europa
+Mitología asturiana,Mitología española,1,11,Europa,17,Europa
+Mitología asturiana,Mitología portuguesa,2,3,Europa,17,Europa
+Mitología asturiana,Mitología castellana,1,3,Europa,17,Europa
+Mitología mesoamericana,Mitología de América Central,2,8,América,6,América
+Mitología mesoamericana,Mitología tolteca,2,8,América,6,América
+Mitología tolteca,Mitología olmeca,2,2,América,8,América
+Mitología española,Mitología portuguesa,2,3,Europa,11,Europa
+Mitología española,Mitología de Galicia,1,11,Europa,11,Europa
+Mitología española,Mitología castellana,2,3,Europa,11,Europa
+Mitología portuguesa,Mitología de Galicia,2,11,Europa,3,Europa
+Mitología portuguesa,Mitología castellana,1,3,Europa,3,Europa
+Mitología incaica,Mitología boliviana,1,6,América,14,América
+Mitología incaica,Mitología quechua,1,3,América,14,América
+Mitología de Galicia,Mitología castellana,1,3,Europa,11,Europa
+Mitología boliviana,Mitología quechua,1,3,América,6,América
+Mitología pueblo,Mitología hopi,1,1,América,1,América
+Mitología fenicia,Mitología griega,4,1185,Europa,28,Asia
+Mitología frigia,Mitología griega,7,1185,Europa,10,Asia
+Mitología bereber,Mitología griega,2,1185,Europa,6,África
+Mitología de Argólida,Mitología griega,1,1185,Europa,1,Europa
+Mitología de Creta,Mitología griega,6,1185,Europa,6,Europa
+Mitología persa,Mitología griega,2,1185,Europa,22,Asia
+Mitología romana,Mitología griega,25,1185,Europa,243,Europa
+Mitología cántabra,Mitología griega,1,1185,Europa,21,Europa
+Mitología europea,Mitología griega,3,1185,Europa,60,Europa
+Mitología ática,Mitología griega,1,1185,Europa,1,Europa
+Mitología tracia,Mitología griega,1,1185,Europa,5,Europa
+Mitología cristiana,Mitología griega,1,1185,Europa,25,Asia
+Mitología laconia,Mitología griega,1,1185,Europa,1,Europa
+Mitología germana,Mitología griega,1,1185,Europa,26,Europa
+Mitología egipcia,Mitología griega,3,1185,Europa,145,África
+Mitología mesopotámica,Mitología griega,2,1185,Europa,91,Asia
+Mitología asiria,Mitología griega,1,1185,Europa,14,Asia
+Mitología de Oriente Medio,Mitología griega,1,1185,Europa,16,Asia
+Mitología vasca,Mitología griega,1,1185,Europa,16,Europa
+Mitología asturiana,Mitología griega,2,1185,Europa,17,Europa
+Mitología filistea,Mitología griega,1,1185,Europa,4,Asia
+Mitología babilónica,Mitología griega,1,1185,Europa,59,Asia
+Mitología acadia,Mitología griega,1,1185,Europa,70,Asia
+Mitología sumeria,Mitología griega,1,1185,Europa,91,Asia
+Mitología amazónica,Mitología guaraní,1,14,América,10,América
+Mitología americana,Mitología guaraní,1,14,América,52,América
+Mitología cristiana,Mitología guaraní,1,14,América,25,Asia
+Mitología argentina,Mitología guaraní,2,14,América,8,América
+Mitología europea,Mitología celta,5,98,Europa,60,Europa
+Mitología irlandesa,Mitología celta,16,98,Europa,24,Europa
+Mitología anglosajona,Mitología celta,2,98,Europa,14,Europa
+Mitología germana,Mitología celta,3,98,Europa,26,Europa
+Mitología española,Mitología celta,1,98,Europa,11,Europa
+Mitología gala,Mitología celta,3,98,Europa,10,Europa
+Mitología romana,Mitología celta,3,98,Europa,243,Europa
+Mitología cántabra,Mitología celta,2,98,Europa,21,Europa
+Mitología asturiana,Mitología celta,3,98,Europa,17,Europa
+Mitología portuguesa,Mitología celta,1,98,Europa,3,Europa
+Mitología de Galicia,Mitología celta,2,98,Europa,11,Europa
+Mitología finlandesa,Mitología celta,1,98,Europa,27,Europa
+Mitología galesa,Mitología celta,1,98,Europa,5,Europa
+Mitología irlandesa,Mitología europea,2,60,Europa,24,Europa
+Mitología íbera,Mitología europea,5,60,Europa,5,Europa
+Mitología de Creta,Mitología europea,1,60,Europa,6,Europa
+Mitología germana,Mitología europea,3,60,Europa,26,Europa
+Mitología anglosajona,Mitología europea,1,60,Europa,14,Europa
+Mitología eslava,Mitología europea,1,60,Europa,19,Europa
+Mitología de Oriente Medio,Mitología europea,1,60,Europa,16,Asia
+Mitología de Galicia,Mitología europea,1,60,Europa,11,Europa
+Mitología romana,Mitología europea,1,60,Europa,243,Europa
+Mitología Báltica,Mitología europea,1,60,Europa,1,Europa
+Mitología americana,Mitología europea,1,60,Europa,52,América
+Mitología española,Mitología europea,1,60,Europa,11,Europa
+Mitología asiática,Mitología europea,1,60,Europa,39,Asia
+Mitología budista,Mitología hinduista,27,239,Asia,78,Asia
+Mitología asiática,Mitología hinduista,3,239,Asia,39,Asia
+Mitología persa,Mitología hinduista,1,239,Asia,22,Asia
+Mitología china,Mitología hinduista,1,239,Asia,96,Asia
+Mitología japonesa,Mitología budista,12,78,Asia,184,Asia
+Mitología china,Mitología budista,8,78,Asia,96,Asia
+Mitología asiática,Mitología budista,3,78,Asia,39,Asia
+Mitología africana,Mitología yoruba,3,50,África,21,África
+Mitología vudú,Mitología yoruba,2,50,África,13,África
+Mitología afroamericana,Mitología yoruba,2,50,África,3,África
+Mitología asiática,Mitología persa,1,22,Asia,39,Asia
+Mitología de Oriente Medio,Mitología persa,1,22,Asia,16,Asia
+Mitología árabe,Mitología persa,1,22,Asia,19,Asia
+Mitología de América del Norte,Mitología estadounidense,3,10,América,17,América
+Mitología canadiense,Mitología estadounidense,2,10,América,6,América
+Mitología francesa,Mitología estadounidense,1,10,América,8,Europa
+Mitología igbo,Mitología africana,2,21,África,4,África
+Mitología afroamericana,Mitología africana,1,21,África,3,África
+Mitología bereber,Mitología africana,1,21,África,6,África
+Mitología malgache,Mitología africana,3,21,África,3,África
+Mitología zulú,Mitología africana,1,21,África,5,África
+Mitología ainu,Mitología japonesa,2,184,Asia,3,Asia
+Mitología china,Mitología japonesa,15,184,Asia,96,Asia
+Mitología egipcia,Mitología japonesa,1,184,Asia,145,África
+Mitología coreana,Mitología japonesa,5,184,Asia,24,Asia
+Mitología asiática,Mitología japonesa,4,184,Asia,39,Asia
+Mitología fenicia,Mitología romana,3,243,Europa,28,Asia
+Mitología de Oriente Medio,Mitología romana,2,243,Europa,16,Asia
+Mitología árabe,Mitología romana,3,243,Europa,19,Asia
+Mitología cartaginesa,Mitología romana,1,243,Europa,5,África
+Mitología frigia,Mitología romana,1,243,Europa,10,Asia
+Mitología egipcia,Mitología romana,2,243,Europa,145,África
+Mitología cristiana,Mitología romana,1,243,Europa,25,Asia
+Mitología del judaísmo,Mitología romana,1,243,Europa,53,Asia
+Mitología itálica,Mitología romana,1,243,Europa,1,Europa
+Mitología del judaísmo,Mitología cristiana,11,25,Asia,53,Asia
+Mitología del islam,Mitología cristiana,3,25,Asia,16,Asia
+Mitología fenicia,Mitología cristiana,1,25,Asia,28,Asia
+Mitología cartaginesa,Mitología cristiana,1,25,Asia,5,África
+Mitología mesopotámica,Mitología cristiana,1,25,Asia,91,Asia
+Mitología gala,Mitología cristiana,1,25,Asia,10,Europa
+Mitología argentina,Mitología cristiana,1,25,Asia,8,América
+Mitología abrahámica,Mitología cristiana,1,25,Asia,2,Asia
+Mitología maya,Mitología mexica,5,179,América,70,América
+Mitología mexicana,Mitología mexica,6,179,América,15,América
+Mitología tolteca,Mitología mexica,8,179,América,8,América
+Mitología americana,Mitología mexica,4,179,América,52,América
+Mitología mesoamericana,Mitología mexica,3,179,América,6,América
+Mitología de América del Sur,Mitología mexica,1,179,América,31,América
+Mitología de América Central,Mitología mexica,1,179,América,8,América
+Mitología olmeca,Mitología mexica,2,179,América,2,América
+Mitología de América del Norte,Mitología mexica,1,179,América,17,América
+Mitología mixteca,Mitología mexica,1,179,América,6,América
+Mitología canadiense,Mitología de América del Norte,4,17,América,6,América
+Mitología del Caribe,Mitología de América del Norte,1,17,América,6,América
+Mitología inuit,Mitología de América del Norte,1,17,América,7,América
+Mitología del islam,Mitología del judaísmo,7,53,Asia,16,Asia
+Mitología acadia,Mitología del judaísmo,1,53,Asia,70,Asia
+Mitología mesopotámica,Mitología del judaísmo,2,53,Asia,91,Asia
+Mitología abrahámica,Mitología del judaísmo,1,53,Asia,2,Asia
+Mitología asiática,Mitología del judaísmo,1,53,Asia,39,Asia
+Mitología abrahámica,Mitología del islam,1,16,Asia,2,Asia
+Mitología germana,Mitología nórdica,7,304,Europa,26,Europa
+Mitología anglosajona,Mitología nórdica,3,304,Europa,14,Europa
+Mitología babilónica,Mitología semítica,1,21,Asia,59,Asia
+Mitología fenicia,Mitología semítica,9,21,Asia,28,Asia
+Mitología cartaginesa,Mitología semítica,2,21,Asia,5,África
+Mitología árabe,Mitología semítica,3,21,Asia,19,Asia
+Mitología mesopotámica,Mitología semítica,6,21,Asia,91,Asia
+Mitología acadia,Mitología semítica,1,21,Asia,70,Asia
+Mitología sumeria,Mitología semítica,1,21,Asia,91,Asia
+Mitología asiática,Mitología semítica,4,21,Asia,39,Asia
+Mitología cananea,Mitología semítica,5,21,Asia,8,Asia
+Mitología filistea,Mitología semítica,1,21,Asia,4,Asia
+Mitología egipcia,Mitología semítica,2,21,Asia,145,África
+Mitología abrahámica,Mitología semítica,1,21,Asia,2,Asia
+Mitología fenicia,Mitología babilónica,2,59,Asia,28,Asia
+Mitología mesopotámica,Mitología babilónica,27,59,Asia,91,Asia
+Mitología acadia,Mitología babilónica,51,59,Asia,70,Asia
+Mitología sumeria,Mitología babilónica,51,59,Asia,91,Asia
+Mitología asiria,Mitología babilónica,10,59,Asia,14,Asia
+Mitología hurrita,Mitología babilónica,2,59,Asia,5,Asia
+Mitología egipcia,Mitología babilónica,1,59,Asia,145,África
+Mitología levantina,Mitología babilónica,1,59,Asia,3,Asia
+Mitología cananea,Mitología babilónica,1,59,Asia,8,Asia
+Mitología asiática,Mitología babilónica,1,59,Asia,39,Asia
+Mitología cartaginesa,Mitología fenicia,3,28,Asia,5,África
+Mitología mesopotámica,Mitología fenicia,10,28,Asia,91,Asia
+Mitología egipcia,Mitología fenicia,3,28,Asia,145,África
+Mitología de Oriente Medio,Mitología fenicia,2,28,Asia,16,Asia
+Mitología cananea,Mitología fenicia,6,28,Asia,8,Asia
+Mitología acadia,Mitología fenicia,1,28,Asia,70,Asia
+Mitología sumeria,Mitología fenicia,1,28,Asia,91,Asia
+Mitología asiria,Mitología fenicia,2,28,Asia,14,Asia
+Mitología levantina,Mitología fenicia,2,28,Asia,3,Asia
+Mitología asiática,Mitología fenicia,5,28,Asia,39,Asia
+Mitología filistea,Mitología fenicia,2,28,Asia,4,Asia
+Mitología árabe,Mitología fenicia,1,28,Asia,19,Asia
+Mitología bereber,Mitología fenicia,1,28,Asia,6,África
+Mitología mesopotámica,Mitología cartaginesa,1,5,África,91,Asia
+Mitología bereber,Mitología cartaginesa,1,5,África,6,África
+Mitología acadia,Mitología mesopotámica,39,91,Asia,70,Asia
+Mitología sumeria,Mitología mesopotámica,52,91,Asia,91,Asia
+Mitología egipcia,Mitología mesopotámica,3,91,Asia,145,África
+Mitología asiria,Mitología mesopotámica,11,91,Asia,14,Asia
+Mitología hurrita,Mitología mesopotámica,2,91,Asia,5,Asia
+Mitología levantina,Mitología mesopotámica,2,91,Asia,3,Asia
+Mitología asiática,Mitología mesopotámica,6,91,Asia,39,Asia
+Mitología cananea,Mitología mesopotámica,5,91,Asia,8,Asia
+Mitología filistea,Mitología mesopotámica,2,91,Asia,4,Asia
+Mitología anatolia,Mitología frigia,1,10,Asia,2,Asia
+Mitología tracia,Mitología frigia,1,10,Asia,5,Europa
+Mitología árabe,Mitología de Oriente Medio,4,16,Asia,19,Asia
+Mitología cananea,Mitología de Oriente Medio,1,16,Asia,8,Asia
+Mitología hurrita,Mitología de Oriente Medio,1,16,Asia,5,Asia
+Mitología del Caribe,Mitología vudú,1,13,África,6,América
+Mitología mexicana,Mitología maya,7,70,América,15,América
+Mitología americana,Mitología maya,3,70,América,52,América
+Mitología mesoamericana,Mitología maya,2,70,América,6,América
+Mitología tolteca,Mitología maya,2,70,América,8,América
+Mitología de América Central,Mitología maya,1,70,América,8,América
+Mitología mesoamericana,Mitología mexicana,3,15,América,6,América
+Mitología de América Central,Mitología mexicana,1,15,América,8,América
+Mitología de América del Sur,Mitología mexicana,1,15,América,31,América
+Mitología española,Mitología mexicana,1,15,América,11,Europa
+Mitología portuguesa,Mitología mexicana,1,15,América,3,Europa
+Mitología americana,Mitología mexicana,2,15,América,52,América
+Mitología tolteca,Mitología mexicana,3,15,América,8,América
+Mitología nubia,Mitología egipcia,5,145,África,7,África
+Mitología acadia,Mitología egipcia,1,145,África,70,Asia
+Mitología sumeria,Mitología egipcia,1,145,África,91,Asia
+Mitología asiria,Mitología egipcia,1,145,África,14,Asia
+Mitología levantina,Mitología egipcia,1,145,África,3,Asia
+Mitología china,Mitología egipcia,1,145,África,96,Asia
+Mitología chilena,Mitología americana,3,52,América,12,América
+Mitología de América del Sur,Mitología americana,12,52,América,31,América
+Mitología chibcha,Mitología americana,4,52,América,5,América
+Mitología talamanqueña,Mitología americana,14,52,América,20,América
+Mitología selknam,Mitología americana,6,52,América,11,América
+Mitología huilliche,Mitología americana,1,52,América,3,América
+Mitología aimara,Mitología americana,1,52,América,5,América
+Mitología incaica,Mitología americana,1,52,América,14,América
+Mitología boliviana,Mitología americana,1,52,América,6,América
+Mitología quechua,Mitología americana,2,52,América,3,América
+Mitología mesoamericana,Mitología americana,2,52,América,6,América
+Mitología tolteca,Mitología americana,3,52,América,8,América
+Mitología mapuche,Mitología americana,1,52,América,16,América
+Mitología venezolana,Mitología americana,1,52,América,1,América
+Mitología española,Mitología americana,1,52,América,11,Europa
+Mitología olmeca,Mitología americana,1,52,América,2,América
+Mitología altaica,Mitología turca,3,8,Asia,4,Asia
+Mitología asiática,Mitología turca,1,8,Asia,39,Asia
+Mitología siberiana,Mitología turca,1,8,Asia,12,Asia
+Mitología asiática,Mitología altaica,1,4,Asia,39,Asia
+Mitología del Asia Central,Mitología asiática,1,39,Asia,2,Asia
+Mitología asiria,Mitología asiática,1,39,Asia,14,Asia
+Mitología cananea,Mitología asiática,4,39,Asia,8,Asia
+Mitología filistea,Mitología asiática,1,39,Asia,4,Asia
+Mitología coreana,Mitología asiática,7,39,Asia,24,Asia
+Mitología china,Mitología asiática,3,39,Asia,96,Asia
+Mitología acadia,Mitología asiática,1,39,Asia,70,Asia
+Mitología sumeria,Mitología asiática,1,39,Asia,91,Asia
+Mitología estonia,Mitología finlandesa,1,27,Europa,2,Europa
+Mitología del Asia norte,Mitología siberiana,1,12,Asia,2,Asia
+Mitología asturiana,Mitología vasca,1,16,Europa,17,Europa
+Mitología española,Mitología vasca,1,16,Europa,11,Europa
+Mitología anglosajona,Mitología germana,2,26,Europa,14,Europa
+Mitología de América del Sur,Mitología chilena,6,12,América,31,América
+Mitología argentina,Mitología chilena,4,12,América,8,América
+Mitología selknam,Mitología chilena,1,12,América,11,América
+Mitología chilota,Mitología chilena,1,12,América,29,América
+Mitología mapuche,Mitología chilena,1,12,América,16,América
+Mitología aimara,Mitología chilena,1,12,América,5,América
+Mitología peruana,Mitología chilena,1,12,América,3,América
+Mitología boliviana,Mitología chilena,1,12,América,6,América
+Mitología eslava,Mitología rusa,11,14,Europa,19,Europa
+Mitología ucraniana,Mitología rusa,2,14,Europa,4,Europa
+Mitología chilota,Mitología argentina,1,8,América,29,América
+Mitología mapuche,Mitología argentina,1,8,América,16,América
+Mitología española,Mitología catalana,4,7,Europa,11,Europa
+Mitología francesa,Mitología catalana,1,7,Europa,8,Europa
+Mitología asturiana,Mitología catalana,1,7,Europa,17,Europa
+Mitología portuguesa,Mitología catalana,1,7,Europa,3,Europa
+Mitología de Galicia,Mitología catalana,1,7,Europa,11,Europa
+Mitología castellana,Mitología catalana,1,7,Europa,3,Europa
+Mitología sumeria,Mitología acadia,62,70,Asia,91,Asia
+Mitología asiria,Mitología acadia,9,70,Asia,14,Asia
+Mitología hurrita,Mitología acadia,2,70,Asia,5,Asia
+Mitología levantina,Mitología acadia,1,70,Asia,3,Asia
+Mitología cananea,Mitología acadia,1,70,Asia,8,Asia
+Mitología asiria,Mitología sumeria,9,91,Asia,14,Asia
+Mitología hurrita,Mitología sumeria,2,91,Asia,5,Asia
+Mitología levantina,Mitología sumeria,1,91,Asia,3,Asia
+Mitología cananea,Mitología sumeria,1,91,Asia,8,Asia
+Mitología incaica,Mitología aimara,1,5,América,14,América
+Mitología peruana,Mitología aimara,1,5,América,3,América
+Mitología boliviana,Mitología aimara,1,5,América,6,América
+Mitología peruana,Mitología de América del Sur,1,31,América,3,América
+Mitología chilota,Mitología de América del Sur,1,31,América,29,América
+Mitología selknam,Mitología de América del Sur,11,31,América,11,América
+Mitología española,Mitología de América del Sur,1,31,América,11,Europa
+Mitología portuguesa,Mitología de América del Sur,1,31,América,3,Europa
+Mitología amazónica,Mitología de América del Sur,1,31,América,10,América
+Mitología boliviana,Mitología de América del Sur,1,31,América,6,América
+Mitología de América Central,Mitología de América del Sur,1,31,América,8,América
+Mitología boliviana,Mitología peruana,2,3,América,6,América
+Mitología asturiana,Mitología cántabra,4,21,Europa,17,Europa
+Mitología de Galicia,Mitología cántabra,4,21,Europa,11,Europa
+Mitología portuguesa,Mitología cántabra,1,21,Europa,3,Europa
+Mitología coreana,Mitología china,5,96,Asia,24,Asia
+Mitología hurrita,Mitología asiria,2,14,Asia,5,Asia
+Mitología levantina,Mitología asiria,1,14,Asia,3,Asia
+Mitología cananea,Mitología asiria,1,14,Asia,8,Asia
+Mitología hitita,Mitología hurrita,1,5,Asia,6,Asia
+Mitología anatolia,Mitología hurrita,1,5,Asia,2,Asia
+Mitología anatolia,Mitología hitita,1,6,Asia,2,Asia
+Mitología hattiana,Mitología hitita,2,6,Asia,2,Asia
+Mitología oceánica,Mitología de Micronesia,1,4,Oceanía,10,Oceanía
+Mitología filistea,Mitología cananea,1,8,Asia,4,Asia
+Mitología abrahámica,Mitología cananea,1,8,Asia,2,Asia
+Mitología filistea,Mitología levantina,1,3,Asia,4,Asia
+Mitología de Polinesia,Mitología oceánica,2,10,Oceanía,2,Oceanía
+Mitología pascuense,Mitología oceánica,4,10,Oceanía,4,Oceanía
+Mitología samoana,Mitología oceánica,1,10,Oceanía,1,Oceanía
+Mitología hawaiana,Mitología oceánica,1,10,Oceanía,7,Oceanía
+Mitología maorí,Mitología oceánica,1,10,Oceanía,4,Oceanía
+Mitología maorí,Mitología de Polinesia,1,2,Oceanía,4,Oceanía
+Mitología colombiana,Mitología amazónica,1,10,América,4,América
+Mitología boliviana,Mitología amazónica,1,10,América,6,América
+Mitología ucraniana,Mitología eslava,2,19,Europa,4,Europa
+Mitología mapuche,Mitología chilota,2,29,América,16,América
+Mitología asturiana,Mitología francesa,1,8,Europa,17,Europa
+Mitología española,Mitología francesa,2,8,Europa,11,Europa
+Mitología portuguesa,Mitología francesa,1,8,Europa,3,Europa
+Mitología de Galicia,Mitología francesa,1,8,Europa,11,Europa
+Mitología castellana,Mitología francesa,1,8,Europa,3,Europa
+Mitología del Caribe,Mitología colombiana,1,4,América,6,América
+Mitología de Galicia,Mitología asturiana,8,17,Europa,11,Europa
+Mitología española,Mitología asturiana,1,17,Europa,11,Europa
+Mitología portuguesa,Mitología asturiana,2,17,Europa,3,Europa
+Mitología castellana,Mitología asturiana,1,17,Europa,3,Europa
+Mitología de América Central,Mitología mesoamericana,2,6,América,8,América
+Mitología tolteca,Mitología mesoamericana,2,6,América,8,América
+Mitología olmeca,Mitología tolteca,2,8,América,2,América
+Mitología portuguesa,Mitología española,2,11,Europa,3,Europa
+Mitología de Galicia,Mitología española,1,11,Europa,11,Europa
+Mitología castellana,Mitología española,2,11,Europa,3,Europa
+Mitología de Galicia,Mitología portuguesa,2,3,Europa,11,Europa
+Mitología castellana,Mitología portuguesa,1,3,Europa,3,Europa
+Mitología boliviana,Mitología incaica,1,14,América,6,América
+Mitología quechua,Mitología incaica,1,14,América,3,América
+Mitología castellana,Mitología de Galicia,1,11,Europa,3,Europa
+Mitología quechua,Mitología boliviana,1,6,América,3,América
+Mitología hopi,Mitología pueblo,1,1,América,1,América
