@@ -1,10 +1,11 @@
 ---
 title: "Análisis de Personajes Mitológicos"
-subtitle: "Trabajo Final de Máster"
 author: "Sergi Fornés"
-output: pdf_document
-classoption:
-- twocolumn
+subtitle: Trabajo Final de Máster
+output:
+  word_document: default
+  pdf_document: default
+classoption: twocolumn
 ---
 
 ```{r setup, include=FALSE}

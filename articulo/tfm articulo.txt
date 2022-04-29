@@ -1,0 +1,13 @@
+Abstract
+Keywords
+Introducción
+Obtención de los datos (Modelo de datos)
+Creación de tablas en R (grafos y texto)
+Consulta de los resultados (Power BI)
+Conclusión (?)
+Apéndice (Capturas de pantalla)
+Conclusiones (tecnologías aprendidadas)
+Bibliografía
+
+La longitud de la memoria no puede superar las 12 páginas (sin incluir la portada) pero se pueden incluir todos los anexos que se
+necesiten. 
