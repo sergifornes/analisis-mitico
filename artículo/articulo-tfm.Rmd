@@ -108,7 +108,7 @@ Para el análisis de los personajes se ha usado el corpus formado por el texto e
 
 Se crea otra tabla similar usando la misma metodología, pero agregando los textos de los artículos por mitologías.
 
-Con estas tablas es posible analizar el uso de los términos más usados en los artículos de Wikipedia. Además, con el uso del tf-idf, podemos descubrir cuales son los términos que caracterizan a un personaje o mitología.
+Con estas tablas es posible analizar el uso de los términos más usados en los artículos de Wikipedia. Además, con el uso del tf-idf, podemos descubrir cuáles son los términos que caracterizan a un personaje o mitología.
 
 
 # Visualización de los resultados
@@ -140,7 +140,7 @@ La visualización principal de esta página es un grafo con las relaciones entre
 
 ![Relación entre Personajes](images/visual3.png)
 
-En esta página se el grafo con las relaciones entre los personajes analizado en el apartado anterior. La relación entre dos personajes puede ser débil o fuerte dependiendo de si la dirección del enlace es unidireccional o bidireccional. Se puede filtrar el grafo por personaje, mitología, continente y tipo de relación.
+En esta página se encuentra el grafo con las relaciones entre los personajes analizado en el apartado anterior. La relación entre dos personajes puede ser débil o fuerte dependiendo de si la dirección del enlace es unidireccional o bidireccional. Se puede filtrar el grafo por personaje, mitología, continente y tipo de relación.
 
 Si no se aplica ningún filtro, no aparecen todos los personajes dentro de la visualización del grafo debido a la limitación de cantidad de aristas de la herramienta. Cuando se supera el límite máximo de aristas impresas, aparece una señal de aviso en la visualización.
 
