@@ -1,19 +1,4 @@
 
-#####
-
-# Scrapear todos los personajes que cumplen los requisitos de las categorías y luego limpiarlo aquí?
-
-# Siete dioses de la fortuna?
-# Patrones de los Viajeros?
-# Set-animal (jeroglífico)?
-# Paredra
-# añadir ángeles abrahámicos?
-# Idioma Osha-Ifa
-# Pueblo yoruba
-
-
-#####
-
 ##########
 # Librerías
 ##########
@@ -23,13 +8,10 @@ library(igraph)
 library(scales)
 library(tidytext)
 library(tm)
-
-# Visualización de grafos
 library(ggraph)
-# Operaciones con matrices para datos en formato tidy
 library(widyr)
-# Latent Dirichlet allocation
-#library(topicmodels)
+library(topicmodels)
+
 
 
 ##########
@@ -76,6 +58,7 @@ persXmits %>%
 persXmits %>%
   left_join(mits, by = "Mitología") %>%
   count(Continente) -> conts
+
 
 
 ##########
@@ -327,7 +310,7 @@ legend(x = -1.1, y = -0.9, names(colContinentes), pch = 21,
        col = "#777777", pt.bg = colContinentes, pt.cex = 2.5, bty = "n", ncol = 1)
 
 
-# grafo con al menos un x% de personajes compartidos (GRÁFICO NO USADO)
+# grafo con al menos un x*100% de personajes compartidos
 x <- 1
 
 tibble(Mitología_L = get.edgelist(gfMit)[,1], Mitología_R = get.edgelist(gfMit)[,2]) %>%
@@ -467,10 +450,7 @@ gamma
 # Degree distribution (Scale-free network?)
 # La mayoría de las distribuciones de los grados de los nodos de las redes siguen una Power Law, provenientes de un crecimiento "natural" de la red
 # La Power Law se encuentra en la cola de la distribución
-# como se chequea si es Scale-free network una directed network?
-# one of the main observations is that the graphs are ‘scale-free’ (see [5, 7, 24] and the references therein); the distribution of vertex degrees follows a
-#power law, rather than the Poisson distribution of the classical random graph models G(n, p) and G(n, M) [16, 17, 19], see also [9].
-# personalmente creo que tiene sentido que los indegree sigan una power-law
+# Que la distribución de los grados de los nodos siga una Power Law es un indicio de que el grafo puede tener una estructura libre de escala (Scale-free network)
 deg_dist <- tibble(deg = seq(0, length(degree_distribution(gf, mode = "in")) - 1), prob = degree_distribution(gf, mode = "in")) %>%
   filter(deg > 0, prob > 0)
 
@@ -492,8 +472,8 @@ deg_dist %>%
 
 
 # Camino más corto entre 2 personajes
-p1 <- "Enlil"
-p2 <- "Hera"
+p1 <- "Britomartis"
+p2 <- "Carme"
 p1 <- str_replace_all(p1, "[^[:alpha:]]", ".")
 p2 <- str_replace_all(p2, "[^[:alpha:]]", ".")
 sp <- shortest_paths(gf, from = V(gf)[name == p1], to = V(gf)[name == p2], mode = "all")$vpath[[1]]
@@ -607,7 +587,7 @@ neighbors(gf_f, p)
 
 # subconjunto del grafo fuerte (CORE de una mitología)
 
-sub_f <- "Mitología de Creta"
+sub_f <- "Mitología griega"
 if(sub_f == "Global") {
   index_f_sub <- matrix(c(TRUE), nrow = nrow(pers))
 } else {
@@ -693,7 +673,7 @@ tidy_pers %>%
 # Diferencias entre 2 mitologías
 # m2 puede ser "Global" para poder comparar m1 con el resto de personajes en su conjunto
 m1 <- "Mitología egipcia"
-m2 <- "Mitología nórdica"
+m2 <- "Global"
 
 persXmits %>%
   filter(Mitología == m1) -> auxM1
@@ -743,7 +723,7 @@ left_join(pers_words, total_pers_words, by = "Nombre") %>%
   ungroup() -> pers_words
 pers_words
 
-# Term frequancy distribution por personaje (PARECE POCO INTERESANTE)
+# Term frequancy distribution por personaje
 p <- "Jörmundgander"
 pers_words %>%
   filter(Nombre == p) -> aux_pers_words
@@ -911,7 +891,6 @@ ggraph(bigram_graph, layout = "fr") +
   geom_node_point(color = "lightblue", size = 5) +
   geom_node_text(aes(label = name), vjust = 1, hjust = 1) +
   theme_void()
-# DEBERÍA ELIMINAR LOS BIGRAMAS QUE REPRESENTES PERSONAJES? POR EJEMPLO EL BIGRAMA "HOMBRE LOBO"
 
 
 m <- "Mitología nórdica"
@@ -924,7 +903,6 @@ word_pairs <- tidy_submits %>%
 word_pairs
 word_pairs %>%
   filter(item1 == "serpiente")
-# PARECE BASTANTE INÚTIL, TODAS LAS RELACIONES SON OBVIAS Y TODOS LOS ARTÍCULOS COMPARTEN MUCHAS PALABRAS PARECIDAS COMO POR EJEMPLO MITOLOGÍA, DIOS, HIJO, NOMBRE...
 
 word_cors <- tidy_submits %>%
   group_by(Palabra) %>%
@@ -1085,12 +1063,11 @@ beta_spread_mits %>%
   top_n(10, -log_ratio) %>%
   arrange(log_ratio)
 
-# Cada personaje es un conjunto de temas
+# Cada mitología es un conjunto de temas
 mits_gamma <- tidy(mits_lda, matrix = "gamma")
 mits_gamma
 
 mits_gamma %>%
   ggplot(aes(x = gamma)) +
   geom_histogram()
-# Con mitologías no se ve una clara división entre los 2 grupos
 
